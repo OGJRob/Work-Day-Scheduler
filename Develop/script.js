@@ -7,8 +7,11 @@ let day = j.date();
 let month = j.month();
 let year = j.year();
 
-let currentDate = document.getElementById("currentDay")
-currentDate.textContent = "currentDate"
+const currentDate = j.format("MMM DD, YYYY");
+
+let scheduleDate = document.getElementById("currentDay")
+scheduleDate.textContent = currentDate;
+
 
 
 
