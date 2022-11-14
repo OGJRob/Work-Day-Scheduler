@@ -2,6 +2,14 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
+const j = dayjs();
+let day = j.date();
+let month = j.month();
+let year = j.year();
+
+let currentDate = document.getElementById("currentDay")
+currentDate.textContent = "currentDate"
+
 
 
 $(function () {
